@@ -22,3 +22,14 @@ Users can search for any city and view real‑time weather data including temper
 ---
 
 ## 📂 Project Structure
+weather-dashboard/
+│
+├── server.js              # Backend entry point
+├── package.json           # Backend dependencies
+│
+└── client/                # React frontend
+├── src/
+│   ├── App.js         # Main React component
+│   ├── App.css        # Styling
+│   └── index.js       # Entry point
+└── package.json       # Frontend dependencies
