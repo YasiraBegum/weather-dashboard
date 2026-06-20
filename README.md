@@ -5,12 +5,6 @@ Users can search for any city and view real‑time weather data including temper
 
 ---
 
-## 🚀 Live Demo
-- **Frontend:** [Weather Dashboard](https://weather-dashboard-gezf.onrender.com)
-- **Backend API:** `https://weather-dashboard-gezf.onrender.com/weather/{city}`
-
----
-
 ## 🛠️ Tech Stack
 - **Frontend:** React, CSS
 - **Backend:** Node.js, Express, Axios
