@@ -9,7 +9,7 @@ function App() {
   const getWeather = async () => {
     try {
       setError('');
-      const res = await fetch(`https://weather-dashboard-gezf.onrender.com/weather/${city}`);
+      const res = await fetch(`http://localhost:5000/weather/${city}`);
       const data = await res.json();
 
       if (data.error) {
