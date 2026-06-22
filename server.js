@@ -5,8 +5,9 @@ const cors = require('cors');
 const app = express();
 app.use(cors());
 
-const API_KEY = '81ffbe14226e93dccd19e8e7240567d6';
+const API_KEY = '81ffbe14226e93dccd19e8e7240567d6'; // your OpenWeather API key
 
+// Weather route
 app.get('/weather/:city', async (req, res) => {
   try {
     const city = req.params.city;
@@ -19,4 +20,5 @@ app.get('/weather/:city', async (req, res) => {
   }
 });
 
+// Start server
 app.listen(5000, () => console.log('Server running on port 5000'));
